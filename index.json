@@ -1,0 +1,12 @@
+{
+  "schema": "tech-brief-index-v1",
+  "issues": [
+    {
+      "date": "2026-11-08",
+      "revision": 1,
+      "publishedAt": "2026-11-08T05:52:46.871122+00:00",
+      "path": "briefs/2026-11-08/r1.json",
+      "sha256": "b6a882172cb70611699c4ce2c6140d686f36cb3cad2b96dae203c3cf656dc7c3"
+    }
+  ]
+}

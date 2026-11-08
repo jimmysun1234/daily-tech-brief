@@ -1,0 +1,107 @@
+{
+  "schema": "tech-brief-v1",
+  "date": "2026-11-08",
+  "revision": 1,
+  "preparedAt": "2026-11-08T05:33:11.724327+00:00",
+  "selectionNote": "週末擴至72小時，兩則11/7媒體報導及三則11/6產業原始資料；未以舊公告或股價湊數。",
+  "news": [
+    {
+      "eventId": "winbond-bonus-20261107",
+      "category": "台股電子股",
+      "title": "華邦電董事長估員工平均獎金約三十個月",
+      "points": [
+        "華邦電董事長焦佑鈞於家庭日表示，今年業績佳，估計員工平均獎金約三十個月；這是董事長說法，非公司已公告的逐人發放明細。"
+      ],
+      "why": "觀察重點：員工獎酬反映公司對營運的看法，實際獲利與現金流仍應以正式財報核對，不把獎金直接換算為投資報酬。",
+      "eventDate": "2026-11-07",
+      "sources": [
+        {
+          "name": "中央社",
+          "url": "https://www.cna.com.tw/news/afe/202611070096.aspx",
+          "retrievedAt": "2026-11-08T05:33:11.724327+00:00",
+          "verificationNote": "已讀全文。金額為董事長估計，不推算EPS；家庭日、平均30個月與刊時逐項核對。",
+          "publishedAt": "2026-11-07T15:23:00+08:00"
+        }
+      ]
+    },
+    {
+      "eventId": "taiwan-server-policy-20261107",
+      "category": "台股電子股",
+      "title": "伺服器供應鏈面對美國資料中心政策變數",
+      "points": [
+        "中央社報導，美國選後地方對資料中心耗電與水資源的疑慮增加；報導分析新興算力出租業者和大型雲端公司的承受能力不同，台灣供應鏈需分別觀察。"
+      ],
+      "why": "觀察重點：這是媒體與受訪者的情境分析，尚非確定砍單；評估個別廠商時，仍需核對客戶組合與後續公告。",
+      "eventDate": "2026-11-07",
+      "sources": [
+        {
+          "name": "中央社",
+          "url": "https://www.cna.com.tw/news/afe/202611070062.aspx",
+          "retrievedAt": "2026-11-08T05:33:11.724327+00:00",
+          "verificationNote": "已讀全文。只摘要媒體分析，不把地方阻力寫成全部資料中心已停建，未引用盤中或收盤股價。",
+          "publishedAt": "2026-11-07T12:03:00+08:00"
+        }
+      ]
+    },
+    {
+      "eventId": "imec-system-integration-20261106",
+      "category": "半導體科技",
+      "title": "imec執行長談系統整合與量產銜接",
+      "points": [
+        "SEMI刊出imec執行長訪談，指出AI運算進步需結合邏輯、記憶體、光子技術、封裝與軟體，並建立研究原型走向可規模化製造的路徑。"
+      ],
+      "why": "觀察重點：訪談強調跨供應鏈協作，提供觀察先進封裝與矽光子的技術方向；屬產業觀點，不代表新製程已量產或已有特定訂單。",
+      "eventDate": "2026-11-06",
+      "sources": [
+        {
+          "name": "SEMI（imec執行長訪談）",
+          "url": "https://www.semi.org/en/blogs/from-better-chips-to-better-systems-a-conversation-with-imec-ceo-patrick-vandenameele-ahead-of-semicon-europa-2026",
+          "retrievedAt": "2026-11-08T05:33:11.724327+00:00",
+          "verificationNote": "已讀獨立全文與SEMI官方列表，列表標示11月6日，正文未提供確切時刻。系統整合是受訪觀點，不宣稱量產成果。",
+          "publishedDate": "2026-11-06",
+          "timeNote": "來源僅提供日期，未提供精確發布時間"
+        }
+      ]
+    },
+    {
+      "eventId": "grid-5g-cablefree-20261106",
+      "category": "電力相關",
+      "title": "英國GRID-5G將在真實配電網驗證通訊",
+      "points": [
+        "CableFree公告參與十八個月、四百零一萬英鎊的GRID-5G計畫，由PNDC領導，在真實配電網驗證私有5G通訊、變電站自動化與故障復原應用。"
+      ],
+      "why": "觀察重點：此為計畫與驗證方向，不是已證實全面部署成效；可靠通訊是分散式能源與電網自動化的重要配套。",
+      "eventDate": "2026-11-06",
+      "sources": [
+        {
+          "name": "CableFree公司新聞稿／EIN Presswire",
+          "url": "https://www.einnews.com/pr_news/955022087/cablefree-supports-grid-5g-accelerating-private-5g-for-uk-energy-networks",
+          "retrievedAt": "2026-11-08T05:33:11.724327+00:00",
+          "verificationNote": "已讀公司供稿全文與12:28 GMT時間。18個月、401萬英鎊、PNDC與真實配電網測試相符，未寫成已完成驗證。",
+          "publishedAt": "2026-11-06T12:28:00+00:00"
+        }
+      ]
+    },
+    {
+      "eventId": "nvidia-6g-tools-20261106",
+      "category": "其他科技",
+      "title": "輝達公布開源6G研究工具應用進展",
+      "points": [
+        "輝達介紹Aerial與Sionna工具的研究應用，包括機器人語意通訊、神經網路接收器與基地台節能；文中稱相關開源工具下載量已超過一百萬次。"
+      ],
+      "why": "觀察重點：成果各有特定實驗條件，不能直接套用商用網路；開源工具可協助研究者重現與比較方法，仍須自行驗證。",
+      "eventDate": "2026-11-06",
+      "sources": [
+        {
+          "name": "NVIDIA官方部落格",
+          "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+          "retrievedAt": "2026-11-08T05:33:11.724327+00:00",
+          "verificationNote": "已讀全文，日期11月6日未附時刻。下載數為公司聲明，研究在各自測試條件下，不將局部測試數字推廣至商用網路。",
+          "publishedDate": "2026-11-06",
+          "timeNote": "來源僅提供日期，未提供精確發布時間"
+        }
+      ]
+    }
+  ],
+  "publishedAt": "2026-11-08T05:52:46.871122+00:00"
+}
