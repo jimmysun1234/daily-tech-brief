@@ -1,0 +1,108 @@
+{
+  "schema": "tech-brief-v1",
+  "date": "2026-11-10",
+  "revision": 1,
+  "preparedAt": "2026-11-09T22:17:36.027162+00:00",
+  "selectionNote": "本期兩則台股電子股、一則半導體、一則電力與一則其他科技。優先採十一月九日新資訊；電力項目擴至七十二小時，保留美國能源部十一月七日原始發布日期及十一月八日生效日，不採轉載更新日。營收是企業自結資訊，廠商工具能力與政策效益均保留各自限制。",
+  "news": [
+    {
+      "eventId": "yageo-october-revenue-20261109",
+      "category": "台股電子股",
+      "title": "國巨十月營收175.97億元，連八個月創高",
+      "points": [
+        "國巨公布十月自結合併營收175.97億元，月增3.1%、年增55%，已連八個月刷新紀錄。公司將成長歸因於特殊品、標準品需求及人工智慧應用帶動。"
+      ],
+      "why": "觀察重點：被動元件需求是否延續，仍要搭配後續訂單、產能與獲利資料判斷，不能只由單月營收推定全年表現。",
+      "eventDate": "2026-11-09",
+      "sources": [
+        {
+          "name": "中央社",
+          "url": "https://www.cna.com.tw/news/afe/202611090142.aspx",
+          "retrievedAt": "2026-11-09T22:16:45+00:00",
+          "verificationNote": "已實際閱讀中央社全文，核對175.97億元、月增3.1%、年增55%及連八月創高；需求原因明確歸屬公司說法，未把前次法說預估當成實績。",
+          "publishedAt": "2026-11-09T15:30:00+08:00"
+        }
+      ]
+    },
+    {
+      "eventId": "asus-october-revenue-20261109",
+      "category": "台股電子股",
+      "title": "華碩十月集團營收1076.2億元，伺服器出貨挹注",
+      "points": [
+        "華碩十月集團合併營收1076.2億元，月增10.7%、年增62.3%，創單月新高。公司說明，伺服器出貨強勁與遞延訂單完成交貨認列，共同推升營收。"
+      ],
+      "why": "觀察重點：遞延訂單認列會影響單月基期，後續應追蹤持續出貨與獲利，不能把這次增幅直接外推到每個月份。",
+      "eventDate": "2026-11-09",
+      "sources": [
+        {
+          "name": "中央社",
+          "url": "https://www.cna.com.tw/news/afe/202611090241.aspx",
+          "retrievedAt": "2026-11-09T22:16:45+00:00",
+          "verificationNote": "透過中央社國巨頁的站內連結打開華碩原文，再讀取正文；確認集團營收、月年增幅與遞延訂單說明。排除搜尋轉載誤指的另一篇文章網址，不混用品牌與集團營收。",
+          "publishedAt": "2026-11-09T18:59:00+08:00"
+        }
+      ]
+    },
+    {
+      "eventId": "amd-epyc-google-tpu8tx-20261109",
+      "category": "半導體科技",
+      "title": "AMD第五代EPYC支援Google TPU 8tx機密運算",
+      "points": [
+        "AMD宣布，第五代EPYC處理器供應Google Cloud TPU 8tx的主機端運算，負責資料準備、工作排程與加速器通訊。公司指出，系統結合硬體隔離及記憶體加密，保護使用中的模型與資料。"
+      ],
+      "why": "觀察重點：企業導入敏感資料時，除了加速效能，也須確認雲端供應商是否啟用相應安全功能；這不是零風險保證。",
+      "eventDate": "2026-11-09",
+      "sources": [
+        {
+          "name": "AMD官方新聞稿",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1304/amd-epyc-expands-its-leadership-at-the-foundation-of-ai",
+          "retrievedAt": "2026-11-09T22:16:45+00:00",
+          "verificationNote": "已閱讀AMD投資人關係原始新聞稿及註腳，核對第五代EPYC、TPU 8tx、主機職責和SEV保護範圍；註腳要求OEM或雲端供應商啟用功能，未宣稱獨立測試或絕對安全。",
+          "publishedDate": "2026-11-09",
+          "timeNote": "原始頁只提供發布日期，未提供精確發布時刻。"
+        }
+      ]
+    },
+    {
+      "eventId": "doe-puerto-rico-grid-orders-20261108",
+      "category": "電力相關",
+      "title": "波多黎各電網緊急命令續期，兼顧發電與線路維護",
+      "points": [
+        "美國能源部續延兩項緊急命令，自十一月八日生效至明年二月五日，授權波多黎各電力局調度維持供電所需機組，並持續清理電線周邊植被，降低枝條損壞線路及停電風險。"
+      ],
+      "why": "觀察重點：電網可靠度同時依賴可用機組與線路維護；命令續期是執行工具，不代表當地停電問題已經解決。",
+      "eventDate": "2026-11-08",
+      "sources": [
+        {
+          "name": "美國能源部",
+          "url": "https://www.energy.gov/articles/energy-secretary-builds-progress-strengthen-puerto-ricos-energy-reliability",
+          "retrievedAt": "2026-11-09T22:16:45+00:00",
+          "verificationNote": "已閱讀華盛頓發布的能源部原文，原頁日期為11月7日，非轉載頁的11月9日；以美國當地11月7日及11月8日生效的新命令確認在本次72小時選題窗內。核對有效期至2027年2月5日、機組調度及植被管理，不將政策目標寫成供電已改善的實測結果。",
+          "publishedDate": "2026-11-07",
+          "timeNote": "原始頁只提供發布日期，未提供精確發布時刻。"
+        }
+      ]
+    },
+    {
+      "eventId": "nvidia-corl-robotics-simulation-20261109",
+      "category": "其他科技",
+      "title": "NVIDIA在CoRL推出新機器人工具，強化精細操作訓練",
+      "points": [
+        "NVIDIA在機器人學習會議介紹GR00T 2模型、Isaac Lab 3.0與開放評測工具，讓研究人員在模擬中訓練接線、對齊齒輪等精細操作，再檢視不同環境下的失敗原因。"
+      ],
+      "why": "觀察重點：模擬能擴大訓練與測試規模，但研究展示仍須驗證能否轉移到真實設備，不能直接視為工廠全面部署成果。",
+      "eventDate": "2026-11-09",
+      "sources": [
+        {
+          "name": "NVIDIA官方部落格",
+          "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+          "retrievedAt": "2026-11-09T22:16:45+00:00",
+          "verificationNote": "已實際讀取11月9日CoRL官方文章，核對GR00T 2、Isaac Lab 3.0、接線及齒輪操作、評測失敗分析與實體部署邊界；未引用未核對效能倍數或把廠商研究展示當成獨立量產驗證。",
+          "publishedDate": "2026-11-09",
+          "timeNote": "原始頁只提供發布日期，未提供精確發布時刻。"
+        }
+      ]
+    }
+  ],
+  "publishedAt": "2026-11-09T22:30:15.659476+00:00"
+}
