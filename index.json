@@ -2,6 +2,13 @@
   "schema": "tech-brief-index-v1",
   "issues": [
     {
+      "date": "2026-11-14",
+      "revision": 1,
+      "publishedAt": "2026-11-14T09:15:01.908118+00:00",
+      "path": "briefs/2026-11-14/r1.json",
+      "sha256": "0e832ddf8d7f4b0501beb7f57a469f59227f18bc977e1f7ae28289c9da349c0c"
+    },
+    {
       "date": "2026-11-12",
       "revision": 1,
       "publishedAt": "2026-11-11T22:30:13.614650+00:00",
