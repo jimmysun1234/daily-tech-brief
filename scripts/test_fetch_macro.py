@@ -105,6 +105,20 @@ class FetchMacroTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             fm.validate_output(bad)
 
+    def test_fallback_extractive_summary_produces_clean_bullets(self):
+        sample = (
+            "All participants supported raising the target range for the federal funds rate "
+            "by 1/4 percentage point to 3-3/4 to 4 percent. Inflation remained elevated and "
+            "participants saw upside risks to inflation while labor market conditions were "
+            "near full employment and economic activity expanded at a solid pace. Most "
+            "participants assessed that another increase in the target range would likely be appropriate."
+        )
+        tone, bullets = fm.fallback_extractive_summary(sample)
+        self.assertEqual(tone, "偏鷹")
+        self.assertEqual(len(bullets), 4)
+        self.assertTrue(any("3.75%–4.00%" in b for b in bullets))
+        self.assertFalse(any("GEMINI_API_KEY" in b or "未啟用 LLM" in b for b in bullets))
+
 
 if __name__ == "__main__":
     unittest.main()

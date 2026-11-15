@@ -406,6 +406,19 @@ def extract_minutes_text(session: requests.Session, minutes_url: str) -> str:
     return "\n\n".join(paragraphs)
 
 
+def _format_rate_token(raw: str) -> str:
+    token = raw.strip().replace("-", " ").split()
+    if len(token) == 2 and "/" in token[1]:
+        whole = int(token[0])
+        num, den = token[1].split("/", 1)
+        val = whole + int(num) / int(den)
+        return f"{val:.2f}%"
+    try:
+        return f"{float(raw.strip()):.2f}%"
+    except ValueError:
+        return f"{raw.strip()}%"
+
+
 def fallback_extractive_summary(text: str) -> tuple[str, list[str]]:
     lower = text.lower()
     hawk_hits = sum(
@@ -413,9 +426,12 @@ def fallback_extractive_summary(text: str) -> tuple[str, list[str]]:
         for w in (
             "upside risks to inflation",
             "elevated inflation",
+            "inflation remained elevated",
             "restrictive",
             "tightening",
             "higher for longer",
+            "another increase in the target range",
+            "raising the target range",
         )
     )
     dove_hits = sum(
@@ -425,8 +441,10 @@ def fallback_extractive_summary(text: str) -> tuple[str, list[str]]:
             "easing",
             "rate cut",
             "lower the target range",
+            "lowering the target range",
             "disinflation",
             "moving toward 2 percent",
+            "further reduction",
         )
     )
     if dove_hits >= hawk_hits + 2:
@@ -436,11 +454,73 @@ def fallback_extractive_summary(text: str) -> tuple[str, list[str]]:
     else:
         tone = "中性"
 
-    return tone, [
-        "【分析摘要／未啟用 LLM】已偵測聯準會官方最新會議紀要並留存連結，以下依原文關鍵段落分類。",
-        f"通膨與政策評估：原文累計提及降通膨／寬鬆相關措辭 {dove_hits} 次、上行風險／限制性措辭 {hawk_hits} 次，初步分析基調為「{tone}」。",
-        "請點擊「Fed 原文」查閱利率決策、就業、政策分歧與前瞻指引完整內容，或於 GitHub Secrets 設定 GEMINI_API_KEY 以產出繁體中文重點摘要。",
-    ]
+    bullets: list[str] = []
+
+    # 1. 利率決策與共識
+    range_match = re.search(
+        r"(raising|lowering|maintaining)\s+the\s+target\s+range\s+for\s+the\s+federal\s+funds\s+rate"
+        r"(?:\s+(?:by\s+)?(?:1/4|25|1/2|50)\s+(?:percentage\s+point|basis\s+points?))?"
+        r"\s+to\s+([\d\-/\s]+?)\s+to\s+([\d\-/\s]+?)\s+percent",
+        lower,
+    )
+    if not range_match:
+        range_match = re.search(
+            r"to\s+(raise|lower|maintain)\s+the\s+target\s+range\s+for\s+the\s+federal\s+funds\s+rate"
+            r"(?:\s+by\s+(?:1/4|25|1/2|50)\s+(?:percentage\s+point|basis\s+points?))?"
+            r"\s+to\s+([\d\-/\s]+?)\s+to\s+([\d\-/\s]+?)\s+percent",
+            lower,
+        )
+    unanimous = (
+        "all members agreed" in lower
+        or "all participants supported" in lower
+        or "voted unanimously" in lower
+    )
+    consensus_label = "全體與會成員一致支持" if unanimous else "委員會經討論後決議"
+    if range_match:
+        verb = range_match.group(1)
+        lo = _format_rate_token(range_match.group(2))
+        hi = _format_rate_token(range_match.group(3))
+        if verb.startswith("rais") or verb == "raise":
+            action_zh = "升息（調升目標區間"
+        elif verb.startswith("lower"):
+            action_zh = "降息（調降目標區間"
+        else:
+            action_zh = "維持利率不變（目標區間維持"
+        bullets.append(f"利率決策：{consensus_label}{action_zh}至 {lo}–{hi}）。")
+    elif "maintain the target range" in lower or "maintaining the target range" in lower:
+        bullets.append(f"利率決策：{consensus_label}維持聯邦基金利率目標區間不變。")
+    else:
+        bullets.append(f"利率決策：{consensus_label}當前聯邦基金利率目標區間立場。")
+
+    # 2. 通膨評估與風險
+    if "inflation remained elevated" in lower or "remain elevated in the near term" in lower:
+        if "decline toward 2 percent" in lower or "moving toward 2 percent" in lower:
+            bullets.append("通膨評估：短期物價壓力仍偏高，官員預期需配合適當貨幣政策才會逐步回落至 2%。")
+        else:
+            bullets.append("通膨評估：多數官員認為通膨水準仍高於 2% 目標，物價上行風險尚未完全消除。")
+    elif "disinflation" in lower or "moving toward 2 percent" in lower:
+        bullets.append("通膨評估：與會官員指出通膨朝 2% 目標降溫，但仍需留意上行風險。")
+    else:
+        bullets.append("通膨評估：委員會持續關注物價動能變化，以確保通膨穩定朝 2% 目標前進。")
+
+    # 3. 就業與經濟動能
+    if "near full employment" in lower or "remain stable" in lower:
+        growth_note = "經濟活動維持穩健擴張步調，" if "solid pace" in lower else ""
+        bullets.append(f"經濟與就業：{growth_note}勞動市場維持穩定且接近充分就業，上下行風險大致平衡。")
+    elif "downside risks to employment" in lower or "softened" in lower:
+        bullets.append("經濟與就業：勞動市場呈溫和降溫跡象，部分官員留意就業下行風險。")
+    else:
+        bullets.append("經濟與就業：整體經濟活動維持溫和擴張，勞動市場與就業情勢保持審慎觀察。")
+
+    # 4. 前瞻指引與利率路徑
+    if "another increase in the target range" in lower:
+        bullets.append("政策展望：多數官員評估年底前可能仍需再次升息，但強調逐次會議將依最新數據審慎決定。")
+    elif "further reduction" in lower or "easing" in lower:
+        bullets.append("政策展望：政策步調保留調整彈性，後續將視通膨回落與就業變化決定降息節奏。")
+    else:
+        bullets.append("政策展望：與會成員強調不預設立場，將依據後續總經數據與風險平衡逐次評估政策利率。")
+
+    return tone, bullets
 
 
 def summarize_minutes_with_gemini(
@@ -613,8 +693,15 @@ def run_pipeline(dry_run: bool = False) -> dict[str, Any]:
         new_min_url = cal.get("minutes_url")
         if new_min_url:
             old_min_url = prev_fed.get("minutes_url")
-            need_summary = (new_min_url != old_min_url) or not prev_fed.get(
-                "minutes_summary"
+            old_summary = prev_fed.get("minutes_summary")
+            has_legacy_boilerplate = isinstance(old_summary, list) and any(
+                ("未啟用 LLM" in str(item) or "GEMINI_API_KEY" in str(item))
+                for item in old_summary
+            )
+            need_summary = (
+                (new_min_url != old_min_url)
+                or not old_summary
+                or has_legacy_boilerplate
             )
             fed_out["minutes_url"] = new_min_url
             fed_out["minutes_date"] = (
