@@ -1,6 +1,6 @@
 {
   "schema_version": "macro-brief-v2",
-  "updated_at": "2026-11-15T15:54:26Z",
+  "updated_at": "2026-11-15T16:48:19Z",
   "status": "ok",
   "warnings": [],
   "fed": {
@@ -17,9 +17,10 @@
     "minutes_tone": "偏鷹",
     "minutes_tone_is_analysis": true,
     "minutes_summary": [
-      "【分析摘要／未啟用 LLM】已偵測聯準會官方最新會議紀要並留存連結，以下依原文關鍵段落分類。",
-      "通膨與政策評估：原文累計提及降通膨／寬鬆相關措辭 2 次、上行風險／限制性措辭 9 次，初步分析基調為「偏鷹」。",
-      "請點擊「Fed 原文」查閱利率決策、就業、政策分歧與前瞻指引完整內容，或於 GitHub Secrets 設定 GEMINI_API_KEY 以產出繁體中文重點摘要。"
+      "利率決策：全體與會成員一致支持升息（調升目標區間至 3.75%–4.00%）。",
+      "通膨評估：短期物價壓力仍偏高，官員預期需配合適當貨幣政策才會逐步回落至 2%。",
+      "經濟與就業：經濟活動維持穩健擴張步調，勞動市場維持穩定且接近充分就業，上下行風險大致平衡。",
+      "政策展望：多數官員評估年底前可能仍需再次升息，但強調逐次會議將依最新數據審慎決定。"
     ],
     "minutes_summary_method": "extractive-fallback",
     "expected_rate": null,
@@ -42,7 +43,7 @@
       "release_date": null,
       "source": "FRED (CPIAUCSL)",
       "seasonal_adjustment": "SA",
-      "updated_at": "2026-11-15T15:54:26Z",
+      "updated_at": "2026-11-15T16:48:19Z",
       "status": "ok"
     },
     "core_pce_yoy": {
@@ -54,7 +55,7 @@
       "release_date": null,
       "source": "FRED (PCEPILFE)",
       "seasonal_adjustment": "SA",
-      "updated_at": "2026-11-15T15:54:26Z",
+      "updated_at": "2026-11-15T16:48:19Z",
       "status": "ok"
     },
     "nfp": {
@@ -66,7 +67,7 @@
       "release_date": null,
       "source": "FRED (PAYEMS)",
       "seasonal_adjustment": "SA",
-      "updated_at": "2026-11-15T15:54:26Z",
+      "updated_at": "2026-11-15T16:48:19Z",
       "status": "ok"
     },
     "unemployment": {
@@ -78,7 +79,7 @@
       "release_date": null,
       "source": "FRED (UNRATE)",
       "seasonal_adjustment": "SA",
-      "updated_at": "2026-11-15T15:54:26Z",
+      "updated_at": "2026-11-15T16:48:19Z",
       "status": "ok"
     },
     "ppi_yoy": {
@@ -90,7 +91,7 @@
       "release_date": null,
       "source": "FRED (PPIFID)",
       "seasonal_adjustment": "NSA",
-      "updated_at": "2026-11-15T15:54:26Z",
+      "updated_at": "2026-11-15T16:48:19Z",
       "status": "ok"
     },
     "gdp_qoq": {
@@ -102,7 +103,7 @@
       "release_date": null,
       "source": "FRED (A191RL1Q225SBEA)",
       "seasonal_adjustment": "SAAR",
-      "updated_at": "2026-11-15T15:54:26Z",
+      "updated_at": "2026-11-15T16:48:19Z",
       "status": "ok"
     }
   }
