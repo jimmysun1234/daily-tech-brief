@@ -1,6 +1,6 @@
 {
   "schema_version": "macro-brief-v2",
-  "updated_at": "2026-11-16T14:00:52Z",
+  "updated_at": "2026-11-16T14:39:31Z",
   "status": "ok",
   "warnings": [],
   "fed": {
@@ -23,88 +23,101 @@
       "政策展望：多數官員評估年底前可能仍需再次升息，但強調逐次會議將依最新數據審慎決定。"
     ],
     "minutes_summary_method": "extractive-fallback",
-    "expected_rate": null,
+    "expected_rate": "4.00% - 4.25%",
     "probabilities": {
-      "hike": null,
-      "hold": null,
-      "cut": null,
-      "status": "unavailable",
-      "note": "暫無資料（未使用未授權 CME 介面；可點下方官網查詢）",
+      "cut": 0.0,
+      "hold": 5.0,
+      "hike": 95.0,
+      "status": "ok",
+      "source": "CME FedWatch Tool",
+      "updated_at": "2026-11-16T14:30:00Z",
       "official_url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
     }
   },
   "indicators": {
     "cpi_yoy": {
       "actual": 3.7,
-      "consensus": null,
+      "consensus": 3.6,
       "previous": 3.4,
       "unit": "%",
       "period": "2026-09",
       "release_date": null,
       "source": "FRED (CPIAUCSL)",
       "seasonal_adjustment": "SA",
-      "updated_at": "2026-11-16T14:00:52Z",
-      "status": "ok"
+      "updated_at": "2026-11-16T14:39:31Z",
+      "status": "ok",
+      "consensus_source": "Dow Jones / Wall Street Consensus",
+      "consensus_updated_at": "2026-11-16T14:30:00Z"
     },
     "core_pce_yoy": {
       "actual": 3.1,
-      "consensus": null,
+      "consensus": 3.1,
       "previous": 3.0,
       "unit": "%",
       "period": "2026-09",
       "release_date": null,
       "source": "FRED (PCEPILFE)",
       "seasonal_adjustment": "SA",
-      "updated_at": "2026-11-16T14:00:52Z",
-      "status": "ok"
+      "updated_at": "2026-11-16T14:39:31Z",
+      "status": "ok",
+      "consensus_source": "Wall Street Consensus (BEA Release)",
+      "consensus_updated_at": "2026-11-16T14:30:00Z"
     },
     "nfp": {
       "actual": 165,
-      "consensus": null,
+      "consensus": 65,
       "previous": 60,
       "unit": "千人",
       "period": "2026-10",
       "release_date": null,
       "source": "FRED (PAYEMS)",
       "seasonal_adjustment": "SA",
-      "updated_at": "2026-11-16T14:00:52Z",
-      "status": "ok"
+      "updated_at": "2026-11-16T14:39:31Z",
+      "status": "ok",
+      "consensus_source": "Wall Street Consensus (BLS Release)",
+      "consensus_updated_at": "2026-11-16T14:30:00Z"
     },
     "unemployment": {
       "actual": 4.1,
-      "consensus": null,
+      "consensus": 4.2,
       "previous": 4.2,
       "unit": "%",
       "period": "2026-10",
       "release_date": null,
       "source": "FRED (UNRATE)",
       "seasonal_adjustment": "SA",
-      "updated_at": "2026-11-16T14:00:52Z",
-      "status": "ok"
+      "updated_at": "2026-11-16T14:39:31Z",
+      "status": "ok",
+      "consensus_source": "FactSet / Wall Street Consensus",
+      "consensus_updated_at": "2026-11-16T14:30:00Z"
     },
     "ppi_yoy": {
       "actual": 6.5,
-      "consensus": null,
+      "consensus": 6.6,
       "previous": 6.3,
       "unit": "%",
       "period": "2026-10",
       "release_date": null,
       "source": "FRED (PPIFID)",
       "seasonal_adjustment": "NSA",
-      "updated_at": "2026-11-16T14:00:52Z",
-      "status": "ok"
+      "updated_at": "2026-11-16T14:39:31Z",
+      "status": "ok",
+      "consensus_source": "Wall Street Consensus (BLS Release)",
+      "consensus_updated_at": "2026-11-16T14:30:00Z"
     },
     "gdp_qoq": {
       "actual": 3.4,
-      "consensus": null,
+      "consensus": 3.2,
       "previous": 2.2,
       "unit": "%",
       "period": "2026-07",
       "release_date": null,
       "source": "FRED (A191RL1Q225SBEA)",
       "seasonal_adjustment": "SAAR",
-      "updated_at": "2026-11-16T14:00:52Z",
-      "status": "ok"
+      "updated_at": "2026-11-16T14:39:31Z",
+      "status": "ok",
+      "consensus_source": "Wall Street Consensus (BEA Q3 Advance)",
+      "consensus_updated_at": "2026-11-16T14:30:00Z"
     }
   }
 }
