@@ -1,61 +1,15 @@
 {
   "schema": "tech-brief-index-v1",
+  "mode": "latest10",
   "issues": [
     {
       "date": "2026-11-16",
-      "revision": 1,
-      "publishedAt": "2026-11-15T22:30:51.589436+00:00",
-      "path": "briefs/2026-11-16/r1.json",
-      "sha256": "c2dc428079d862a255e6edbc0dc531a39002e2cd51d79229527581a8f62ac2b4"
-    },
-    {
-      "date": "2026-11-15",
-      "revision": 1,
-      "publishedAt": "2026-11-15T04:33:36.477777+00:00",
-      "path": "briefs/2026-11-15/r1.json",
-      "sha256": "ade14de46b5ab2f5deefba58f4f5ffbb39a891ca1d868c070e4d09544d7b9c00"
-    },
-    {
-      "date": "2026-11-14",
-      "revision": 1,
-      "publishedAt": "2026-11-14T09:15:01.908118+00:00",
-      "path": "briefs/2026-11-14/r1.json",
-      "sha256": "0e832ddf8d7f4b0501beb7f57a469f59227f18bc977e1f7ae28289c9da349c0c"
-    },
-    {
-      "date": "2026-11-12",
-      "revision": 1,
-      "publishedAt": "2026-11-11T22:30:13.614650+00:00",
-      "path": "briefs/2026-11-12/r1.json",
-      "sha256": "a90e47a91abcde1786c04b52e11dbeb59bd8fd3cc4041402467dbe8cc80ce0b7"
-    },
-    {
-      "date": "2026-11-11",
-      "revision": 1,
-      "publishedAt": "2026-11-10T22:30:13.135108+00:00",
-      "path": "briefs/2026-11-11/r1.json",
-      "sha256": "f4342ede644dadac6a3cdf6bb7bd3c955e44825cb22c6345fa23d3101bd5a16d"
-    },
-    {
-      "date": "2026-11-10",
-      "revision": 1,
-      "publishedAt": "2026-11-09T22:30:15.659476+00:00",
-      "path": "briefs/2026-11-10/r1.json",
-      "sha256": "76aca12e7189630d20ec0f9b22ef14c3db23a50fec03de25248792a7cc3c7ae0"
-    },
-    {
-      "date": "2026-11-09",
-      "revision": 1,
-      "publishedAt": "2026-11-09T02:19:01.563264+00:00",
-      "path": "briefs/2026-11-09/r1.json",
-      "sha256": "038b90635612880cd13dd79bda144c48cf1cdb758a05f12dbaaf940a2315d5fe"
-    },
-    {
-      "date": "2026-11-08",
-      "revision": 1,
-      "publishedAt": "2026-11-08T05:52:46.871122+00:00",
-      "path": "briefs/2026-11-08/r1.json",
-      "sha256": "b6a882172cb70611699c4ce2c6140d686f36cb3cad2b96dae203c3cf656dc7c3"
+      "revision": 22,
+      "publishedAt": "2026-11-16T13:15:44.302063+00:00",
+      "path": "briefs/2026-11-16/r22.json",
+      "sha256": "95658fcf410ccd55c30cf9b7d2e713734af38a44228743322cc01d941b57820f",
+      "updateMode": "hourly",
+      "editionAt": "2026-11-16T21:00:00+08:00"
     }
   ]
 }
