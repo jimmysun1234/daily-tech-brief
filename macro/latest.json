@@ -1,12 +1,12 @@
 {
   "schema_version": "macro-brief-v2",
-  "updated_at": "2026-11-15T16:48:19Z",
+  "updated_at": "2026-11-16T14:00:52Z",
   "status": "ok",
   "warnings": [],
   "fed": {
     "current_rate": "3.75% - 4.00%",
     "previous_rate": "3.50% - 3.75%",
-    "rate_as_of": "2026-11-15",
+    "rate_as_of": "2026-11-16",
     "rate_source": "FRED (DFEDTARL)",
     "next_fomc_date": "2026-12-09",
     "statement_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
@@ -43,7 +43,7 @@
       "release_date": null,
       "source": "FRED (CPIAUCSL)",
       "seasonal_adjustment": "SA",
-      "updated_at": "2026-11-15T16:48:19Z",
+      "updated_at": "2026-11-16T14:00:52Z",
       "status": "ok"
     },
     "core_pce_yoy": {
@@ -55,7 +55,7 @@
       "release_date": null,
       "source": "FRED (PCEPILFE)",
       "seasonal_adjustment": "SA",
-      "updated_at": "2026-11-15T16:48:19Z",
+      "updated_at": "2026-11-16T14:00:52Z",
       "status": "ok"
     },
     "nfp": {
@@ -67,7 +67,7 @@
       "release_date": null,
       "source": "FRED (PAYEMS)",
       "seasonal_adjustment": "SA",
-      "updated_at": "2026-11-15T16:48:19Z",
+      "updated_at": "2026-11-16T14:00:52Z",
       "status": "ok"
     },
     "unemployment": {
@@ -79,7 +79,7 @@
       "release_date": null,
       "source": "FRED (UNRATE)",
       "seasonal_adjustment": "SA",
-      "updated_at": "2026-11-15T16:48:19Z",
+      "updated_at": "2026-11-16T14:00:52Z",
       "status": "ok"
     },
     "ppi_yoy": {
@@ -91,7 +91,7 @@
       "release_date": null,
       "source": "FRED (PPIFID)",
       "seasonal_adjustment": "NSA",
-      "updated_at": "2026-11-15T16:48:19Z",
+      "updated_at": "2026-11-16T14:00:52Z",
       "status": "ok"
     },
     "gdp_qoq": {
@@ -103,7 +103,7 @@
       "release_date": null,
       "source": "FRED (A191RL1Q225SBEA)",
       "seasonal_adjustment": "SAAR",
-      "updated_at": "2026-11-15T16:48:19Z",
+      "updated_at": "2026-11-16T14:00:52Z",
       "status": "ok"
     }
   }
