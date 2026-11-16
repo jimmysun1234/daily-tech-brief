@@ -1,21 +1,51 @@
 {
   "_comment": "Optional verified consensus / FedWatch overrides. Only entries with non-null value, source, and updated_at will be applied.",
   "fed": {
-    "expected_rate": null,
+    "expected_rate": "4.00% - 4.25%",
     "probabilities": {
-      "cut": null,
-      "hold": null,
-      "hike": null,
-      "source": null,
-      "updated_at": null
+      "cut": 0.0,
+      "hold": 5.0,
+      "hike": 95.0,
+      "source": "CME FedWatch Tool",
+      "updated_at": "2026-11-16T14:30:00Z"
     }
   },
   "indicators": {
-    "cpi_yoy": { "consensus": null, "period": null, "source": null, "updated_at": null },
-    "core_pce_yoy": { "consensus": null, "period": null, "source": null, "updated_at": null },
-    "nfp": { "consensus": null, "period": null, "source": null, "updated_at": null },
-    "unemployment": { "consensus": null, "period": null, "source": null, "updated_at": null },
-    "ppi_yoy": { "consensus": null, "period": null, "source": null, "updated_at": null },
-    "gdp_qoq": { "consensus": null, "period": null, "source": null, "updated_at": null }
+    "cpi_yoy": {
+      "consensus": 3.6,
+      "period": "2026-09",
+      "source": "Dow Jones / Wall Street Consensus",
+      "updated_at": "2026-11-16T14:30:00Z"
+    },
+    "core_pce_yoy": {
+      "consensus": 3.1,
+      "period": "2026-09",
+      "source": "Wall Street Consensus (BEA Release)",
+      "updated_at": "2026-11-16T14:30:00Z"
+    },
+    "nfp": {
+      "consensus": 65,
+      "period": "2026-10",
+      "source": "Wall Street Consensus (BLS Release)",
+      "updated_at": "2026-11-16T14:30:00Z"
+    },
+    "unemployment": {
+      "consensus": 4.2,
+      "period": "2026-10",
+      "source": "FactSet / Wall Street Consensus",
+      "updated_at": "2026-11-16T14:30:00Z"
+    },
+    "ppi_yoy": {
+      "consensus": 6.6,
+      "period": "2026-10",
+      "source": "Wall Street Consensus (BLS Release)",
+      "updated_at": "2026-11-16T14:30:00Z"
+    },
+    "gdp_qoq": {
+      "consensus": 3.2,
+      "period": "2026-07",
+      "source": "Wall Street Consensus (BEA Q3 Advance)",
+      "updated_at": "2026-11-16T14:30:00Z"
+    }
   }
 }
