@@ -3,13 +3,13 @@
   "mode": "latest10",
   "issues": [
     {
-      "date": "2026-11-19",
-      "revision": 22,
-      "publishedAt": "2026-11-19T13:06:03.905040+00:00",
-      "path": "briefs/2026-11-19/r22.json",
-      "sha256": "56c5899e8373c69f28da38fb137c31c8877868775d8016a42ed561b2c9519065",
+      "date": "2026-11-20",
+      "revision": 1,
+      "publishedAt": "2026-11-19T16:07:16.540026+00:00",
+      "path": "briefs/2026-11-20/r1.json",
+      "sha256": "a17f07b31850d3065d4b3d21460ead3f397a7ab930cd698185201304d7acf5ad",
       "updateMode": "hourly",
-      "editionAt": "2026-11-19T21:00:00+08:00"
+      "editionAt": "2026-11-20T00:00:00+08:00"
     }
   ]
 }
