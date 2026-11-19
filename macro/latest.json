@@ -1,26 +1,26 @@
 {
   "schema_version": "macro-brief-v2",
-  "updated_at": "2026-11-18T14:00:37Z",
+  "updated_at": "2026-11-19T14:00:40Z",
   "status": "ok",
   "warnings": [],
   "fed": {
     "current_rate": "3.75% - 4.00%",
     "previous_rate": "3.50% - 3.75%",
-    "rate_as_of": "2026-11-18",
+    "rate_as_of": "2026-11-19",
     "rate_source": "FRED (DFEDTARL)",
     "next_fomc_date": "2026-12-09",
     "statement_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
     "statement_date": "2026-10-28",
-    "minutes_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm",
-    "minutes_date": "2026-10-07",
-    "minutes_meeting_date": "2026-09-16",
+    "minutes_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm",
+    "minutes_date": "2026-11-18",
+    "minutes_meeting_date": "2026-10-28",
     "minutes_tone": "偏鷹",
     "minutes_tone_is_analysis": true,
     "minutes_summary": [
-      "利率決策：全體與會成員一致支持升息（調升目標區間至 3.75%–4.00%）。",
-      "通膨評估：短期物價壓力仍偏高，官員預期需配合適當貨幣政策才會逐步回落至 2%。",
+      "利率決策：全體與會成員一致支持維持聯邦基金利率目標區間不變。",
+      "通膨評估：多數官員認為通膨水準仍高於 2% 目標，物價上行風險尚未完全消除。",
       "經濟與就業：經濟活動維持穩健擴張步調，勞動市場維持穩定且接近充分就業，上下行風險大致平衡。",
-      "政策展望：多數官員評估年底前可能仍需再次升息，但強調逐次會議將依最新數據審慎決定。"
+      "政策展望：政策步調保留調整彈性，後續將視通膨回落與就業變化決定降息節奏。"
     ],
     "minutes_summary_method": "extractive-fallback",
     "expected_rate": "4.00% - 4.25%",
@@ -44,7 +44,7 @@
       "release_date": null,
       "source": "FRED (CPIAUCSL)",
       "seasonal_adjustment": "SA",
-      "updated_at": "2026-11-18T14:00:37Z",
+      "updated_at": "2026-11-19T14:00:40Z",
       "status": "ok",
       "consensus_source": "Dow Jones / Wall Street Consensus",
       "consensus_updated_at": "2026-11-16T14:30:00Z"
@@ -58,7 +58,7 @@
       "release_date": null,
       "source": "FRED (PCEPILFE)",
       "seasonal_adjustment": "SA",
-      "updated_at": "2026-11-18T14:00:37Z",
+      "updated_at": "2026-11-19T14:00:40Z",
       "status": "ok",
       "consensus_source": "Wall Street Consensus (BEA Release)",
       "consensus_updated_at": "2026-11-16T14:30:00Z"
@@ -72,7 +72,7 @@
       "release_date": null,
       "source": "FRED (PAYEMS)",
       "seasonal_adjustment": "SA",
-      "updated_at": "2026-11-18T14:00:37Z",
+      "updated_at": "2026-11-19T14:00:40Z",
       "status": "ok",
       "consensus_source": "Wall Street Consensus (BLS Release)",
       "consensus_updated_at": "2026-11-16T14:30:00Z"
@@ -86,7 +86,7 @@
       "release_date": null,
       "source": "FRED (UNRATE)",
       "seasonal_adjustment": "SA",
-      "updated_at": "2026-11-18T14:00:37Z",
+      "updated_at": "2026-11-19T14:00:40Z",
       "status": "ok",
       "consensus_source": "FactSet / Wall Street Consensus",
       "consensus_updated_at": "2026-11-16T14:30:00Z"
@@ -100,7 +100,7 @@
       "release_date": null,
       "source": "FRED (PPIFID)",
       "seasonal_adjustment": "NSA",
-      "updated_at": "2026-11-18T14:00:37Z",
+      "updated_at": "2026-11-19T14:00:40Z",
       "status": "ok",
       "consensus_source": "Wall Street Consensus (BLS Release)",
       "consensus_updated_at": "2026-11-16T14:30:00Z"
@@ -114,7 +114,7 @@
       "release_date": null,
       "source": "FRED (A191RL1Q225SBEA)",
       "seasonal_adjustment": "SAAR",
-      "updated_at": "2026-11-18T14:00:37Z",
+      "updated_at": "2026-11-19T14:00:40Z",
       "status": "ok",
       "consensus_source": "Wall Street Consensus (BEA Q3 Advance)",
       "consensus_updated_at": "2026-11-16T14:30:00Z"
