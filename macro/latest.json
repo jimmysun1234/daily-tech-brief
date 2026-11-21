@@ -1,6 +1,6 @@
 {
   "schema_version": "macro-brief-v2",
-  "updated_at": "2026-11-20T21:41:21Z",
+  "updated_at": "2026-11-21T02:58:52Z",
   "status": "ok",
   "warnings": [],
   "fed": {
@@ -44,7 +44,7 @@
       "release_date": null,
       "source": "FRED (CPIAUCSL)",
       "seasonal_adjustment": "SA",
-      "updated_at": "2026-11-20T21:41:21Z",
+      "updated_at": "2026-11-21T02:58:52Z",
       "status": "ok",
       "consensus_source": "Dow Jones / Wall Street Consensus",
       "consensus_updated_at": "2026-11-16T14:30:00Z"
@@ -58,7 +58,7 @@
       "release_date": null,
       "source": "FRED (PCEPILFE)",
       "seasonal_adjustment": "SA",
-      "updated_at": "2026-11-20T21:41:21Z",
+      "updated_at": "2026-11-21T02:58:52Z",
       "status": "ok",
       "consensus_source": "Wall Street Consensus (BEA Release)",
       "consensus_updated_at": "2026-11-16T14:30:00Z"
@@ -72,7 +72,7 @@
       "release_date": null,
       "source": "FRED (PAYEMS)",
       "seasonal_adjustment": "SA",
-      "updated_at": "2026-11-20T21:41:21Z",
+      "updated_at": "2026-11-21T02:58:52Z",
       "status": "ok",
       "consensus_source": "Wall Street Consensus (BLS Release)",
       "consensus_updated_at": "2026-11-16T14:30:00Z"
@@ -86,7 +86,7 @@
       "release_date": null,
       "source": "FRED (UNRATE)",
       "seasonal_adjustment": "SA",
-      "updated_at": "2026-11-20T21:41:21Z",
+      "updated_at": "2026-11-21T02:58:52Z",
       "status": "ok",
       "consensus_source": "FactSet / Wall Street Consensus",
       "consensus_updated_at": "2026-11-16T14:30:00Z"
@@ -100,7 +100,7 @@
       "release_date": null,
       "source": "FRED (PPIFID)",
       "seasonal_adjustment": "NSA",
-      "updated_at": "2026-11-20T21:41:21Z",
+      "updated_at": "2026-11-21T02:58:52Z",
       "status": "ok",
       "consensus_source": "Wall Street Consensus (BLS Release)",
       "consensus_updated_at": "2026-11-16T14:30:00Z"
@@ -114,7 +114,7 @@
       "release_date": null,
       "source": "FRED (A191RL1Q225SBEA)",
       "seasonal_adjustment": "SAAR",
-      "updated_at": "2026-11-20T21:41:21Z",
+      "updated_at": "2026-11-21T02:58:52Z",
       "status": "ok",
       "consensus_source": "Wall Street Consensus (BEA Q3 Advance)",
       "consensus_updated_at": "2026-11-16T14:30:00Z"
