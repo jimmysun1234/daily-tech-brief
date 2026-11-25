@@ -4,12 +4,12 @@
   "issues": [
     {
       "date": "2026-11-25",
-      "revision": 1,
-      "publishedAt": "2026-11-24T16:04:22.628925+00:00",
-      "path": "briefs/2026-11-25/r1.json",
-      "sha256": "d15528c1628321e3583e3e739ed571c20bc8e9a989ca2bc876bb8e63090eed40",
+      "revision": 10,
+      "publishedAt": "2026-11-25T01:05:51.130009+00:00",
+      "path": "briefs/2026-11-25/r10.json",
+      "sha256": "3411f5ddd2075f165ab6f1b7409a68986cf864562eea025424973d1a3c4535c6",
       "updateMode": "hourly",
-      "editionAt": "2026-11-25T00:00:00+08:00"
+      "editionAt": "2026-11-25T09:00:00+08:00"
     }
   ]
 }
