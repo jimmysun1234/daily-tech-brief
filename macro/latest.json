@@ -1,12 +1,12 @@
 {
   "schema_version": "macro-brief-v2",
-  "updated_at": "2026-11-24T23:23:52Z",
+  "updated_at": "2026-11-25T22:57:21Z",
   "status": "ok",
   "warnings": [],
   "fed": {
     "current_rate": "3.75% - 4.00%",
     "previous_rate": "3.50% - 3.75%",
-    "rate_as_of": "2026-11-24",
+    "rate_as_of": "2026-11-25",
     "rate_source": "FRED (DFEDTARL)",
     "next_fomc_date": "2026-12-09",
     "statement_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
@@ -44,24 +44,22 @@
       "release_date": null,
       "source": "FRED (CPIAUCSL)",
       "seasonal_adjustment": "SA",
-      "updated_at": "2026-11-24T23:23:52Z",
+      "updated_at": "2026-11-25T22:57:21Z",
       "status": "ok",
       "consensus_source": "Dow Jones / Wall Street Consensus",
       "consensus_updated_at": "2026-11-16T14:30:00Z"
     },
     "core_pce_yoy": {
-      "actual": 3.1,
-      "consensus": 3.1,
-      "previous": 3.0,
+      "actual": 3.3,
+      "consensus": null,
+      "previous": 3.1,
       "unit": "%",
-      "period": "2026-09",
+      "period": "2026-10",
       "release_date": null,
       "source": "FRED (PCEPILFE)",
       "seasonal_adjustment": "SA",
-      "updated_at": "2026-11-24T23:23:52Z",
-      "status": "ok",
-      "consensus_source": "Wall Street Consensus (BEA Release)",
-      "consensus_updated_at": "2026-11-16T14:30:00Z"
+      "updated_at": "2026-11-25T22:57:21Z",
+      "status": "ok"
     },
     "nfp": {
       "actual": 165,
@@ -72,7 +70,7 @@
       "release_date": null,
       "source": "FRED (PAYEMS)",
       "seasonal_adjustment": "SA",
-      "updated_at": "2026-11-24T23:23:52Z",
+      "updated_at": "2026-11-25T22:57:21Z",
       "status": "ok",
       "consensus_source": "Wall Street Consensus (BLS Release)",
       "consensus_updated_at": "2026-11-16T14:30:00Z"
@@ -86,7 +84,7 @@
       "release_date": null,
       "source": "FRED (UNRATE)",
       "seasonal_adjustment": "SA",
-      "updated_at": "2026-11-24T23:23:52Z",
+      "updated_at": "2026-11-25T22:57:21Z",
       "status": "ok",
       "consensus_source": "FactSet / Wall Street Consensus",
       "consensus_updated_at": "2026-11-16T14:30:00Z"
@@ -100,13 +98,13 @@
       "release_date": null,
       "source": "FRED (PPIFID)",
       "seasonal_adjustment": "NSA",
-      "updated_at": "2026-11-24T23:23:52Z",
+      "updated_at": "2026-11-25T22:57:21Z",
       "status": "ok",
       "consensus_source": "Wall Street Consensus (BLS Release)",
       "consensus_updated_at": "2026-11-16T14:30:00Z"
     },
     "gdp_qoq": {
-      "actual": 3.4,
+      "actual": 4.3,
       "consensus": 3.2,
       "previous": 2.2,
       "unit": "%",
@@ -114,7 +112,7 @@
       "release_date": null,
       "source": "FRED (A191RL1Q225SBEA)",
       "seasonal_adjustment": "SAAR",
-      "updated_at": "2026-11-24T23:23:52Z",
+      "updated_at": "2026-11-25T22:57:21Z",
       "status": "ok",
       "consensus_source": "Wall Street Consensus (BEA Q3 Advance)",
       "consensus_updated_at": "2026-11-16T14:30:00Z"
