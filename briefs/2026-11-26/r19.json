@@ -1,0 +1,217 @@
+{
+  "schema": "tech-brief-v1",
+  "date": "2026-11-26",
+  "revision": 19,
+  "updateMode": "hourly",
+  "editionAt": "2026-11-26T18:00:00+08:00",
+  "preparedAt": "2026-11-26T18:08:42.576986+08:00",
+  "techStatus": "complete",
+  "taiwanStockStatus": "ready",
+  "selectionNote": "18時科技區兩則採近三小時全文；為補足不同事件，三則擴至當日已讀全文。Skanska金額缺官方佐證，已剔除。",
+  "taiwanStockSelectionNote": "18時台股區先選近三小時法人、關稅與能源資訊；其餘擴至當日14時總經及金屬市場原文。排除投顧帶單與同一收盤事件重複稿。",
+  "news": [
+    {
+      "eventId": "softbank-openai-credit-20261126",
+      "category": "其他科技",
+      "title": "軟銀股漲而信用風險成本升高",
+      "points": [
+        "軟銀二十六日股價漲7.3%，五年期CDS一度達534.6基點。",
+        "報導指子公司八月借入100億美元，條款參照OpenAI估值。"
+      ],
+      "eventDate": "2026-11-26",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6673046",
+          "publishedAt": "2026-11-26T10:01:16.000Z",
+          "retrievedAt": "2026-11-26T18:04:24.232779+08:00",
+          "verificationNote": "已讀全文；CDS為市場報價，非已違約；未宣稱追加擔保已發生。"
+        }
+      ],
+      "why": "估值波動可能提高軟銀融資壓力。"
+    },
+    {
+      "eventId": "foxconn-taipei-vgh-chemo-automation-20261126",
+      "category": "台股電子股",
+      "title": "鴻海與北榮展示化療自動化場域",
+      "points": [
+        "鴻海與臺北榮總發表化療調劑、院內配送及護理協作系統。",
+        "系統整合湯山設備、川崎機械手臂與法博移動機器人。"
+      ],
+      "eventDate": "2026-11-26",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6672936",
+          "publishedAt": "2026-11-26T08:43:04.000Z",
+          "retrievedAt": "2026-11-26T18:05:14.691347+08:00",
+          "verificationNote": "已讀全文，並對照鴻海既有智慧醫療官方介紹；本日發表歸屬鉅亨報導。"
+        }
+      ],
+      "why": "鴻海將系統整合能力延伸至智慧醫療。"
+    },
+    {
+      "eventId": "winway-renwu-probe-capacity-20261126",
+      "category": "半導體科技",
+      "title": "穎崴規劃仁武新廠擴充探針產能",
+      "points": [
+        "穎崴法說會表示，仁武新廠預計2027年首季完工。",
+        "公司估自製探針月產能2027年下半年達2900萬支。"
+      ],
+      "eventDate": "2026-11-26",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6672851",
+          "publishedAt": "2026-11-26T08:14:06.000Z",
+          "retrievedAt": "2026-11-26T18:05:35.753458+08:00",
+          "verificationNote": "已讀全文，將完工與產能均標示為公司預估。"
+        }
+      ],
+      "why": "擴產對應AI晶片測試介面需求，數字屬公司規劃。"
+    },
+    {
+      "eventId": "delloro-1p6t-ethernet-q3-20261126",
+      "category": "半導體科技",
+      "title": "研調稱1.6T乙太網路交換埠出貨破百萬",
+      "points": [
+        "Dell’Oro稱第三季1.6T交換器出貨逾100萬埠。",
+        "研調指AI後端網路在scale-up與scale-out同步採用。"
+      ],
+      "eventDate": "2026-11-26",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6672730",
+          "publishedAt": "2026-11-26T06:00:16.000Z",
+          "retrievedAt": "2026-11-26T18:07:25.591263+08:00",
+          "verificationNote": "已讀全文，核對Dell’Oro官方新聞稿；單位是連接埠，不是設備台數。"
+        }
+      ],
+      "why": "高速交換埠需求牽動交換器與網通供應鏈。"
+    },
+    {
+      "eventId": "eu-quantum-act-proposal-20261126",
+      "category": "其他科技",
+      "title": "歐盟提出量子法案與主權科技基金",
+      "points": [
+        "歐盟執委會二十五日提出量子法案，涵蓋供應鏈與資安。",
+        "主權科技股權基金目標500億歐元，尚非已核定預算。"
+      ],
+      "eventDate": "2026-11-26",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6672745",
+          "publishedAt": "2026-11-26T06:00:20.000Z",
+          "retrievedAt": "2026-11-26T18:07:29.717762+08:00",
+          "verificationNote": "已讀全文，並核對歐盟執委會官方新聞稿；區分提案與正式生效。"
+        }
+      ],
+      "why": "相關採購與投資規則將影響量子及資安業者。"
+    }
+  ],
+  "taiwanStockNews": [
+    {
+      "eventId": "taiwan-foreign-cash-futures-selling-20261126",
+      "category": "法人觀點",
+      "title": "外資現貨續賣超，期貨淨空單增加",
+      "points": [
+        "二十六日外資現貨賣超491.81億元，投信買超230.51億元。",
+        "鉅亨網報導外資當日期貨淨空583口，未平倉淨空10萬6275口。"
+      ],
+      "eventDate": "2026-11-26",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6672995",
+          "publishedAt": "2026-11-26T09:28:30.000Z",
+          "retrievedAt": "2026-11-26T18:04:53.954904+08:00",
+          "verificationNote": "已讀全文；原文投信『賣買超』為筆誤，經其他媒體及金額加總核對為買超；期貨口數依原文。"
+        }
+      ],
+      "why": "現貨與期貨部位顯示外資仍偏防守。"
+    },
+    {
+      "eventId": "taiwan-us-tariff-policy-minister-20261126",
+      "category": "臺灣經濟",
+      "title": "經濟部長談台美關稅與原產地規則",
+      "points": [
+        "龔明鑫稱台美談判的15%不疊加共識未改變。",
+        "部長表示水五金、車用零件等稅率安排有利出口。"
+      ],
+      "eventDate": "2026-11-26",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6672933",
+          "publishedAt": "2026-11-26T08:24:28.000Z",
+          "retrievedAt": "2026-11-26T18:05:28.973935+08:00",
+          "verificationNote": "已讀全文；關稅內容均歸屬部長說法，不視為美方新正式公告。"
+        }
+      ],
+      "why": "關稅安排將影響臺灣出口業者報價。"
+    },
+    {
+      "eventId": "taiwan-lng-alaska-longterm-supply-20261126",
+      "category": "臺灣經濟",
+      "title": "經濟部評估阿拉斯加天然氣供應",
+      "points": [
+        "龔明鑫稱部分卡達液化天然氣長約2031年後到期。",
+        "政府擬評估轉向美國氣源，阿拉斯加案仍視美方政策而定。"
+      ],
+      "eventDate": "2026-11-26",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6672941",
+          "publishedAt": "2026-11-26T08:42:19.000Z",
+          "retrievedAt": "2026-11-26T18:05:17.879868+08:00",
+          "verificationNote": "已讀全文；阿拉斯加合作為評估中，不寫成已簽約。"
+        }
+      ],
+      "why": "氣源分散有助降低臺灣燃氣供應集中風險。"
+    },
+    {
+      "eventId": "fed-beige-book-nov-20261126",
+      "category": "全球總經",
+      "title": "聯準會褐皮書稱美國消費大致持平",
+      "points": [
+        "褐皮書指十二轄區中八區經濟成長，其餘大致持平。",
+        "資料中心需求使部分地區晶片及電氣零件交期拉長。"
+      ],
+      "eventDate": "2026-11-26",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6672727",
+          "publishedAt": "2026-11-26T06:00:15.000Z",
+          "retrievedAt": "2026-11-26T18:07:24.453369+08:00",
+          "verificationNote": "已讀全文；數據屬截至十一月十六日褐皮書訪查，不當作當日即時統計。"
+        }
+      ],
+      "why": "美國需求與交期變化牽動臺灣科技出口觀察。"
+    },
+    {
+      "eventId": "lme-copper-tariff-rate-risk-20261126",
+      "category": "全球總經",
+      "title": "銅價回落反映關稅與利率擔憂",
+      "points": [
+        "報導指二十五日晚間倫敦三個月期銅跌1.9%至每噸11596美元。",
+        "十一月銅價累跌18%；交易員稱部分投資人退場觀望。"
+      ],
+      "eventDate": "2026-11-26",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6672746",
+          "publishedAt": "2026-11-26T06:00:20.000Z",
+          "retrievedAt": "2026-11-26T18:07:24.750227+08:00",
+          "verificationNote": "已讀全文；二十五日晚間報價與十一月期間跌幅分開表述。"
+        }
+      ],
+      "why": "銅價波動牽動電子原料及工業成本。"
+    }
+  ],
+  "publishedAt": "2026-11-26T10:09:22.135194+00:00"
+}
