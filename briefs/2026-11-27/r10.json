@@ -1,0 +1,217 @@
+{
+  "schema": "tech-brief-v1",
+  "date": "2026-11-27",
+  "revision": 10,
+  "updateMode": "hourly",
+  "editionAt": "2026-11-27T09:00:00+08:00",
+  "preparedAt": "2026-11-27T09:03:18.660310+08:00",
+  "techStatus": "complete",
+  "taiwanStockStatus": "ready",
+  "selectionNote": "科技區三則取06至09時原文，另兩則擴至前24小時已讀全文事件；台積電德州案原始申請為24日，雖27日有轉載仍不把核准寫成已完成。",
+  "taiwanStockSelectionNote": "台股區近三小時缺少合適市場原文，擴至前24小時：一則歐洲央行紀要與四則臺灣法人、關稅及能源資訊均重讀全文。",
+  "news": [
+    {
+      "eventId": "nyrstar-budel-zinc-halt-20261126",
+      "category": "電力相關",
+      "title": "荷蘭鋅廠因能源成本將停產",
+      "points": [
+        "Nyrstar宣布Budel鋅廠十一月三十日起停止生產。",
+        "公司稱能源成本上升使營運不具經濟效益。"
+      ],
+      "eventDate": "2026-11-26",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6673463",
+          "publishedAt": "2026-11-27T00:30:15.000Z",
+          "retrievedAt": "2026-11-27T09:00:25.473019+08:00",
+          "verificationNote": "已讀全文，核對Nyrstar官方公告；31.5萬噸為設計產能，未當作減產量。"
+        }
+      ],
+      "why": "冶煉供應變動可能牽動鋅價與鍍鋅材料成本。"
+    },
+    {
+      "eventId": "tsmc-texas-jeti-review-20261124",
+      "category": "半導體科技",
+      "title": "台積電德州廠租稅申請進入地方審議",
+      "points": [
+        "德州審計長建議核准台積電德州廠租稅申請。",
+        "學區十二月十日聽證，估計減稅約3.54億美元。"
+      ],
+      "eventDate": "2026-11-24",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6673430",
+          "publishedAt": "2026-11-27T00:00:05.000Z",
+          "retrievedAt": "2026-11-27T09:00:26.477134+08:00",
+          "verificationNote": "已讀全文並核對德州官方申請；建議核准非正式核准，選址未決。"
+        }
+      ],
+      "why": "優惠審議影響台積電美國建廠選址評估。"
+    },
+    {
+      "eventId": "kioxia-nvidia-ssd-gpu-poc-20261126",
+      "category": "半導體科技",
+      "title": "鎧俠與輝達測試SSD擴充GPU可用資料量",
+      "points": [
+        "測試在GB200 NVL72機櫃搭載144顆XD8 SSD。",
+        "鎧俠稱可探索處理約兩兆筆向量資料。"
+      ],
+      "eventDate": "2026-11-26",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6673426",
+          "publishedAt": "2026-11-27T00:00:04.000Z",
+          "retrievedAt": "2026-11-27T09:00:35.578453+08:00",
+          "verificationNote": "已讀全文並核對鎧俠官方公告；屬概念驗證，未宣稱量產效益。"
+        }
+      ],
+      "why": "企業級SSD可支援超出HBM容量的資料存取。"
+    },
+    {
+      "eventId": "cyclic-germany-rare-earth-recycling-20261126",
+      "category": "其他科技",
+      "title": "稀土回收商選定德國磁鐵拆解廠址",
+      "points": [
+        "Cyclic Materials選定德國Schkopau廠址。",
+        "公司目標2028年投產，規劃年處理約2.5萬噸廢料。"
+      ],
+      "eventDate": "2026-11-26",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6673299",
+          "publishedAt": "2026-11-26T15:01:01.000Z",
+          "retrievedAt": "2026-11-27T09:00:56.292661+08:00",
+          "verificationNote": "已讀全文，核對公司官方新聞稿；2.5萬噸為廢料量非稀土產量。"
+        }
+      ],
+      "why": "廢磁鐵拆解可增加歐洲稀土回收原料來源。"
+    },
+    {
+      "eventId": "2crsi-server-backlog-compliance-20261126",
+      "category": "其他科技",
+      "title": "法商伺服器訂單須經出口規範審查",
+      "points": [
+        "2CRSi公布在手訂單逾4.6億美元，客戶位於歐美。",
+        "部分訂單須待輝達合規確認後才收訂金。"
+      ],
+      "eventDate": "2026-11-26",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6673186",
+          "publishedAt": "2026-11-26T12:00:28.000Z",
+          "retrievedAt": "2026-11-27T09:01:10.567291+08:00",
+          "verificationNote": "已重讀全文並核對2CRSi公司揭露；訂單未等於已交貨營收。"
+        }
+      ],
+      "why": "出口審查可能拉長AI伺服器交貨流程。"
+    }
+  ],
+  "taiwanStockNews": [
+    {
+      "eventId": "ecb-october-minutes-energy-inflation-20261126",
+      "category": "全球總經",
+      "title": "歐洲央行紀要揭露暫緩升息考量",
+      "points": [
+        "歐洲央行公布十月會議紀要，存款利率維持2.50%。",
+        "官員等待工資與能源價格資料，再評估是否升息。"
+      ],
+      "eventDate": "2026-11-26",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6673258",
+          "publishedAt": "2026-11-26T14:00:06.000Z",
+          "retrievedAt": "2026-11-27T09:00:59.793670+08:00",
+          "verificationNote": "已讀全文並核對歐洲央行官方紀要；十月決議與十一月公布日已區分。"
+        }
+      ],
+      "why": "歐洲利率路徑牽動全球資金與匯率風險。"
+    },
+    {
+      "eventId": "huanan-financial-2027-taiwan-rate-outlook-20261126",
+      "category": "法人觀點",
+      "title": "華南金總經理談明年景氣與利率",
+      "points": [
+        "華南金蕭玉美預估2027年臺灣經濟成長5.82%。",
+        "她認為臺灣央行年底前仍可能升息，台幣偏向區間升值。"
+      ],
+      "eventDate": "2026-11-26",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6673210",
+          "publishedAt": "2026-11-26T12:21:51.000Z",
+          "retrievedAt": "2026-11-27T09:02:15.617311+08:00",
+          "verificationNote": "已重讀法說全文；成長與升息均歸屬蕭玉美預估，非央行決議。"
+        }
+      ],
+      "why": "利率與匯率預期牽動臺灣企業資金成本。"
+    },
+    {
+      "eventId": "taiwan-foreign-cash-futures-selling-20261126",
+      "category": "法人觀點",
+      "title": "外資現貨賣超且期貨維持淨空",
+      "points": [
+        "二十六日外資現貨賣超491.81億元。",
+        "鉅亨網報導外資期貨當日淨空583口，未平倉淨空106275口。"
+      ],
+      "eventDate": "2026-11-26",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6672995",
+          "publishedAt": "2026-11-26T09:28:30.000Z",
+          "retrievedAt": "2026-11-27T09:02:15.940358+08:00",
+          "verificationNote": "已重讀全文；原文投信筆誤不沿用，本文只採外資現貨與期貨數據。"
+        }
+      ],
+      "why": "外資兩市場部位反映偏防守的資金配置。"
+    },
+    {
+      "eventId": "taiwan-lng-alaska-longterm-supply-20261126",
+      "category": "臺灣經濟",
+      "title": "經濟部評估阿拉斯加天然氣氣源",
+      "points": [
+        "龔明鑫稱部分卡達液化天然氣長約2031年後到期。",
+        "政府擬評估美國氣源，阿拉斯加合作仍看美方政策。"
+      ],
+      "eventDate": "2026-11-26",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6672941",
+          "publishedAt": "2026-11-26T08:42:19.000Z",
+          "retrievedAt": "2026-11-27T09:02:17.123456+08:00",
+          "verificationNote": "已重讀全文；合作案仍在評估，不寫成已簽約。"
+        }
+      ],
+      "why": "氣源分散有助降低臺灣供氣集中風險。"
+    },
+    {
+      "eventId": "taiwan-us-tariff-policy-minister-20261126",
+      "category": "臺灣經濟",
+      "title": "經濟部長談臺美關稅安排",
+      "points": [
+        "龔明鑫稱臺美15%關稅不疊加共識未改變。",
+        "他表示水五金與車用零件等出口項目可受惠。"
+      ],
+      "eventDate": "2026-11-26",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6672933",
+          "publishedAt": "2026-11-26T08:24:28.000Z",
+          "retrievedAt": "2026-11-27T09:02:16.668739+08:00",
+          "verificationNote": "已重讀全文；關稅內容歸屬部長說法，不當作美方新公告。"
+        }
+      ],
+      "why": "關稅條件變動影響臺灣出口業者報價。"
+    }
+  ],
+  "publishedAt": "2026-11-27T01:03:55.103455+00:00"
+}
