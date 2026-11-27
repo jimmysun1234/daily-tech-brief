@@ -1,0 +1,217 @@
+{
+  "schema": "tech-brief-v1",
+  "date": "2026-11-27",
+  "revision": 16,
+  "updateMode": "hourly",
+  "editionAt": "2026-11-27T15:00:00+08:00",
+  "preparedAt": "2026-11-27T15:03:48.444724+08:00",
+  "techStatus": "complete",
+  "taiwanStockStatus": "ready",
+  "selectionNote": "科技區近三小時合適新稿不足，採前24小時已讀全文的封測、電力、晶片、儲存與回收事件；德州案原始申請日期為24日。",
+  "taiwanStockSelectionNote": "台股區優先選近三小時的收盤法人動向與星展企業結算調查；不足五則擴至前24小時的消費信心、惠譽融資風險與歐洲央行人事。",
+  "news": [
+    {
+      "eventId": "powertech-q3-packaging-results-20261127",
+      "category": "半導體科技",
+      "title": "超豐第三季封測營收與營益成長",
+      "points": [
+        "超豐第三季營收59.98億元，年增41.1%。",
+        "營業利益15.85億元，年增166.4%；毛利率30.09%。"
+      ],
+      "eventDate": "2026-11-27",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6673470",
+          "publishedAt": "2026-11-27T01:00:07.000Z",
+          "retrievedAt": "2026-11-27T12:06:16.996055+08:00",
+          "verificationNote": "已讀全文；第三季數據與十月營收分開，未將公司舊產能目標寫成已達成。"
+        }
+      ],
+      "why": "覆晶封裝需求與產能利用率影響封測獲利。"
+    },
+    {
+      "eventId": "jera-power-plant-ai-dc-talks-20261127",
+      "category": "電力相關",
+      "title": "JERA洽談電廠直供AI資料中心",
+      "points": [
+        "日經稱JERA洽談讓Anthropic與Meta進駐資料中心。",
+        "千葉電廠旁首案規劃最高400MW，目標2028年啟用。"
+      ],
+      "eventDate": "2026-11-27",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6673464",
+          "publishedAt": "2026-11-27T00:30:15.000Z",
+          "retrievedAt": "2026-11-27T12:06:18.094081+08:00",
+          "verificationNote": "已讀全文；洽談未簽約，容量屬千葉既有規劃，非兩家客戶承諾。"
+        }
+      ],
+      "why": "電廠直供電可縮短資料中心等待併網時間。"
+    },
+    {
+      "eventId": "tsmc-texas-jeti-review-20261124",
+      "category": "半導體科技",
+      "title": "台積電德州廠租稅申請進入地方審議",
+      "points": [
+        "德州審計長建議核准台積電德州廠租稅申請。",
+        "學區十二月十日聽證，估計減稅約3.54億美元。"
+      ],
+      "eventDate": "2026-11-24",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6673430",
+          "publishedAt": "2026-11-27T00:00:05.000Z",
+          "retrievedAt": "2026-11-27T12:06:38.809271+08:00",
+          "verificationNote": "已重讀全文並核對德州官方申請；建議核准非正式核准，選址未決。"
+        }
+      ],
+      "why": "優惠審議影響台積電美國建廠選址評估。"
+    },
+    {
+      "eventId": "kioxia-nvidia-ssd-gpu-poc-20261126",
+      "category": "半導體科技",
+      "title": "鎧俠與輝達測試SSD擴充GPU可用資料量",
+      "points": [
+        "測試在GB200 NVL72機櫃搭載144顆XD8 SSD。",
+        "鎧俠稱可探索處理約兩兆筆向量資料。"
+      ],
+      "eventDate": "2026-11-26",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6673426",
+          "publishedAt": "2026-11-27T00:00:04.000Z",
+          "retrievedAt": "2026-11-27T12:07:37.105966+08:00",
+          "verificationNote": "已重讀全文並核對鎧俠官方公告；概念驗證非量產效益。"
+        }
+      ],
+      "why": "企業級SSD可支援超出HBM容量的資料存取。"
+    },
+    {
+      "eventId": "cyclic-germany-rare-earth-recycling-20261126",
+      "category": "其他科技",
+      "title": "稀土回收商選定德國磁鐵拆解廠址",
+      "points": [
+        "Cyclic Materials選定德國Schkopau廠址。",
+        "公司目標2028年投產，規劃年處理約2.5萬噸廢料。"
+      ],
+      "eventDate": "2026-11-26",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6673299",
+          "publishedAt": "2026-11-26T15:01:01.000Z",
+          "retrievedAt": "2026-11-27T12:07:36.876959+08:00",
+          "verificationNote": "已重讀全文並核對公司公告；2.5萬噸是廢料量，非稀土產量。"
+        }
+      ],
+      "why": "廢磁鐵拆解可增加歐洲稀土回收原料來源。"
+    }
+  ],
+  "taiwanStockNews": [
+    {
+      "eventId": "taiwan-close-foreign-selling-20261127",
+      "category": "台股大盤",
+      "title": "台股尾盤翻紅，外資仍賣超",
+      "points": [
+        "台股二十七日收39308.08點，漲156.27點。",
+        "外資賣超296.28億元，三大法人合計賣超213.04億元。"
+      ],
+      "eventDate": "2026-11-27",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6673736",
+          "publishedAt": "2026-11-27T06:59:29.000Z",
+          "retrievedAt": "2026-11-27T15:00:28.028761+08:00",
+          "verificationNote": "已讀全文；只採收盤與法人數據，避開原文成交量單位及投信欄位疑似筆誤。"
+        }
+      ],
+      "why": "選前量縮與外資賣超顯示盤勢仍受資金流向牽動。"
+    },
+    {
+      "eventId": "dbs-taiwan-rmb-settlement-survey-20261127",
+      "category": "臺灣經濟",
+      "title": "星展調查臺灣企業跨境結算變化",
+      "points": [
+        "星展調查36名臺灣企業財務主管，81%已使用人民幣結算。",
+        "69%受訪者難即時掌握付款與現金部位。"
+      ],
+      "eventDate": "2026-11-27",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6673602",
+          "publishedAt": "2026-11-27T04:44:17.000Z",
+          "retrievedAt": "2026-11-27T15:00:53.681284+08:00",
+          "verificationNote": "已讀全文；百分比僅歸屬星展受訪企業，不推論全體。"
+        }
+      ],
+      "why": "樣本僅36人，結果反映受訪企業而非所有臺灣企業。"
+    },
+    {
+      "eventId": "taiwan-cci-november-survey-20261127",
+      "category": "臺灣經濟",
+      "title": "十一月消費與股票投資信心下滑",
+      "points": [
+        "中央大學公布十一月消費者信心指數65.91點，月減0.36點。",
+        "投資股票時機信心32.86點，月減3點。"
+      ],
+      "eventDate": "2026-11-27",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6673575",
+          "publishedAt": "2026-11-27T03:02:05.000Z",
+          "retrievedAt": "2026-11-27T12:05:51.323005+08:00",
+          "verificationNote": "已讀完整原文；十一月調查與二十七日公布時間分開。"
+        }
+      ],
+      "why": "股票信心下滑反映市場波動影響投資情緒。"
+    },
+    {
+      "eventId": "fitch-apac-ai-dc-financing-risk-20261127",
+      "category": "市場展望",
+      "title": "惠譽示警亞太AI資料中心融資風險",
+      "points": [
+        "惠譽認為美國晶片管制可能使亞太資料中心投資放緩。",
+        "依賴單一客群及先進GPU的新雲端業者信用壓力較大。"
+      ],
+      "eventDate": "2026-11-27",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6673563",
+          "publishedAt": "2026-11-27T02:52:11.000Z",
+          "retrievedAt": "2026-11-27T12:05:54.616906+08:00",
+          "verificationNote": "已讀全文；融資變化屬惠譽風險評估，非所有專案均已停工。"
+        }
+      ],
+      "why": "授信審查可能更重視終端客戶與硬體交付。"
+    },
+    {
+      "eventId": "ecb-leadership-candidate-20261126",
+      "category": "全球總經",
+      "title": "歐元區領袖支持歐洲央行接班人選",
+      "points": [
+        "馬克宏稱歐元區領袖支持德科斯接掌歐洲央行。",
+        "人選仍須正式任命，十二月利率會議由拉加德主持。"
+      ],
+      "eventDate": "2026-11-26",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6673427",
+          "publishedAt": "2026-11-27T00:00:05.000Z",
+          "retrievedAt": "2026-11-27T12:06:49.626188+08:00",
+          "verificationNote": "已讀全文；領袖支持不等於完成任命，12月會議主持人已核對。"
+        }
+      ],
+      "why": "央行人事可能影響歐洲利率政策預期。"
+    }
+  ],
+  "publishedAt": "2026-11-27T07:04:16.867416+00:00"
+}
