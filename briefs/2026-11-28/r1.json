@@ -1,0 +1,217 @@
+{
+  "schema": "tech-brief-v1",
+  "date": "2026-11-28",
+  "revision": 1,
+  "updateMode": "hourly",
+  "editionAt": "2026-11-28T00:00:00+08:00",
+  "preparedAt": "2026-11-28T00:02:53.391963+08:00",
+  "techStatus": "complete",
+  "taiwanStockStatus": "ready",
+  "selectionNote": "科技區近三小時無適合新稿，重查前24小時內正崴高速線、鴻海模型、友達廠房交易、TrendForce記憶體研究與鎧俠SSD測試全文。",
+  "taiwanStockSelectionNote": "鉅亨台股與總經區先採近三小時美國商品貿易初值；其餘擴至前24小時內第一銀利率展望、主計總處GDP預測、外資籌碼與國發會景氣燈號。",
+  "news": [
+    {
+      "eventId": "cheng-uei-ai-cable-computing-outlook-20261127",
+      "category": "台股電子股",
+      "title": "正崴說明高速線與算力中心營運",
+      "points": [
+        "正崴稱AI高速傳輸線已供應美系客戶。",
+        "土城算力中心128台H100伺服器已滿載。"
+      ],
+      "eventDate": "2026-11-27",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6674059",
+          "publishedAt": "2026-11-27T12:15:04.000Z",
+          "retrievedAt": "2026-11-28T00:00:28.086764+08:00",
+          "verificationNote": "已於本次重新讀取完整原文；已讀全文；明年成長與租金調整是公司預期，非已實現營收。"
+        }
+      ],
+      "why": "高速線與算力租賃可增加正崴營收來源。"
+    },
+    {
+      "eventId": "foxbrain-v21-aiec-benchmark-20261127",
+      "category": "其他科技",
+      "title": "鴻海FoxBrain模型在主權AI評測居第二",
+      "points": [
+        "鴻海FoxBrain v2.1在AIEC評測暫列第二。",
+        "模型有310億參數，可在單台AI伺服器部署。"
+      ],
+      "eventDate": "2026-11-27",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6674029",
+          "publishedAt": "2026-11-27T11:50:56.000Z",
+          "retrievedAt": "2026-11-28T00:00:52.331362+08:00",
+          "verificationNote": "已於本次重新讀取完整原文；已讀全文並核對鴻海研究院公告；成績限特定評測，原文部分百分比與公告不同故不採。"
+        }
+      ],
+      "why": "企業可評估在自有伺服器部署繁中模型。"
+    },
+    {
+      "eventId": "auo-spil-huaya-factory-sale-20261127",
+      "category": "半導體科技",
+      "title": "友達華亞廠改售矽品",
+      "points": [
+        "友達公告華亞廠以197億元售予矽品。",
+        "友達估計扣除費稅後處分利益約104億元。"
+      ],
+      "eventDate": "2026-11-27",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6674033",
+          "publishedAt": "2026-11-27T11:26:34.000Z",
+          "retrievedAt": "2026-11-28T00:00:59.737087+08:00",
+          "verificationNote": "已於本次重新讀取完整原文；已讀全文並核對友達公開資訊觀測站重訊；利益為公司估計，廠房用途未公布。"
+        }
+      ],
+      "why": "矽品取得廠房與設施，可供後續營運配置。"
+    },
+    {
+      "eventId": "trendforce-dram-2028-price-scenarios-20261125",
+      "category": "半導體科技",
+      "title": "TrendForce示警2028年DRAM價格風險",
+      "points": [
+        "TrendForce基準情境估2028年DRAM合約價轉跌。",
+        "悲觀情境估一般型DRAM自2027年第四季下跌。"
+      ],
+      "eventDate": "2026-11-25",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6673880",
+          "publishedAt": "2026-11-27T09:06:41.000Z",
+          "retrievedAt": "2026-11-28T00:02:40.978177+08:00",
+          "verificationNote": "已讀全文並核對TrendForce新聞稿；兩種價格路徑均為情境預估。"
+        }
+      ],
+      "why": "記憶體採購轉保守可能壓抑合約價格。"
+    },
+    {
+      "eventId": "kioxia-nvidia-ssd-gpu-poc-20261126",
+      "category": "半導體科技",
+      "title": "鎧俠與輝達測試SSD擴充GPU可用資料量",
+      "points": [
+        "測試在GB200 NVL72機櫃搭載144顆XD8 SSD。",
+        "鎧俠稱可探索處理約兩兆筆向量資料。"
+      ],
+      "eventDate": "2026-11-26",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6673426",
+          "publishedAt": "2026-11-27T00:00:04.000Z",
+          "retrievedAt": "2026-11-28T00:02:41.608220+08:00",
+          "verificationNote": "已於21:20重讀完整原文並核對鎧俠公司公告；144顆SSD為測試配置，非量產出貨。"
+        }
+      ],
+      "why": "企業級SSD可支援超出HBM容量的資料存取。"
+    }
+  ],
+  "taiwanStockNews": [
+    {
+      "eventId": "us-goods-trade-deficit-october-20261127",
+      "category": "全球總經",
+      "title": "美國十月商品貿易逆差擴大",
+      "points": [
+        "美國人口普查局初估十月逆差1495億美元。",
+        "進口月增6.1%，出口月增3.2%。"
+      ],
+      "eventDate": "2026-11-27",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6674151",
+          "publishedAt": "2026-11-27T14:33:13.000Z",
+          "retrievedAt": "2026-11-28T00:00:26.396480+08:00",
+          "verificationNote": "已讀鉅亨完整轉載文並核對美國人口普查局初值；1495億美元為四捨五入。"
+        }
+      ],
+      "why": "無直接產業影響"
+    },
+    {
+      "eventId": "first-bank-taiwan-us-rates-outlook-20261127",
+      "category": "法人觀點",
+      "title": "第一銀評估台美利率走向",
+      "points": [
+        "第一銀副總預期台灣央行十二月利率不變。",
+        "他預估美國年底及明年首季前各升息1碼。"
+      ],
+      "eventDate": "2026-11-27",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6674022",
+          "publishedAt": "2026-11-27T11:44:53.000Z",
+          "retrievedAt": "2026-11-28T00:00:56.858916+08:00",
+          "verificationNote": "已讀全文；兩國利率路徑均為第一銀副總廖文偉預估，非央行決議。"
+        }
+      ],
+      "why": "台美利差預期影響新臺幣匯率。"
+    },
+    {
+      "eventId": "dgbas-taiwan-gdp-outlook-20261127",
+      "category": "臺灣經濟",
+      "title": "主計總處上修臺灣今明年經濟成長預測",
+      "points": [
+        "主計總處預測2026年GDP成長13.28%。",
+        "2027年預測成長6.51%，高於前次估值。"
+      ],
+      "eventDate": "2026-11-27",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6673977",
+          "publishedAt": "2026-11-27T10:28:32.000Z",
+          "retrievedAt": "2026-11-28T00:01:16.695268+08:00",
+          "verificationNote": "已於本次重新讀取完整原文；已讀全文並核對主計總處11月27日新聞稿；今明年數字均為預測。"
+        }
+      ],
+      "why": "AI相關出口需求支撐臺灣成長預測。"
+    },
+    {
+      "eventId": "foreign-taiwan-equity-futures-position-20261127",
+      "category": "法人觀點",
+      "title": "外資現貨連賣，台指期淨空單增",
+      "points": [
+        "二十七日外資現貨賣超296.28億元，連十賣。",
+        "台指期外資淨空單增至107503口。"
+      ],
+      "eventDate": "2026-11-27",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6673941",
+          "publishedAt": "2026-11-27T10:00:03.000Z",
+          "retrievedAt": "2026-11-28T00:01:26.761428+08:00",
+          "verificationNote": "已於本次重新讀取完整原文；已讀全文並核對期交所台指期外資淨未平倉為負107503口；不採原文個股張數。"
+        }
+      ],
+      "why": "現貨賣超與期貨空單顯示外資部位偏防守。"
+    },
+    {
+      "eventId": "ndc-october-business-signal-20261127",
+      "category": "臺灣經濟",
+      "title": "十月景氣對策信號降一分仍為紅燈",
+      "points": [
+        "國發會公布十月景氣燈號40分，月減1分。",
+        "製造業營業氣候測驗點由黃紅燈轉綠燈。"
+      ],
+      "eventDate": "2026-11-27",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6673884",
+          "publishedAt": "2026-11-27T09:41:03.000Z",
+          "retrievedAt": "2026-11-28T00:01:31.364857+08:00",
+          "verificationNote": "已於本次重新讀取完整原文；已讀全文並核對國發會11月27日新聞稿；不採原文其他未核對的資本支出估值。"
+        }
+      ],
+      "why": "製造業信心轉弱影響景氣判讀。"
+    }
+  ],
+  "publishedAt": "2026-11-27T16:03:32.952444+00:00"
+}
