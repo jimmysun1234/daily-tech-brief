@@ -1,0 +1,217 @@
+{
+  "schema": "tech-brief-v1",
+  "date": "2026-11-28",
+  "revision": 22,
+  "updateMode": "hourly",
+  "editionAt": "2026-11-28T21:00:00+08:00",
+  "preparedAt": "2026-11-28T21:09:42.233332+08:00",
+  "techStatus": "complete",
+  "taiwanStockStatus": "ready",
+  "selectionNote": "科技區優先近三小時三菱液冷與GS東海機房新進展；不足五則擴至前24小時景碩、景旺與聯電產能投資。",
+  "taiwanStockSelectionNote": "台股與總經區優先近三小時標普法國評等展望；其他新稿多為個股買賣推薦，剔除後擴至前24小時日本對臺課稅、德國預算、美國貿易與美元避險。",
+  "news": [
+    {
+      "eventId": "mitsubishi-taikisha-two-phase-cooling-mou-20261126",
+      "category": "其他科技",
+      "title": "三菱電機與大氣社合作兩相液冷",
+      "points": [
+        "兩公司二十六日簽署AI機房兩相液冷備忘錄。",
+        "將先驗證晶片冷板與機房排熱整合。"
+      ],
+      "eventDate": "2026-11-26",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6674546",
+          "publishedAt": "2026-11-28T11:00:20.000Z",
+          "retrievedAt": "2026-11-28T21:06:48.698458+08:00",
+          "verificationNote": "已讀鉅亨完整轉載文並核對三菱電機公告；尚未公布客戶或商用時間。"
+        }
+      ],
+      "why": "兩相液冷設計可支援高功率AI機房散熱。"
+    },
+    {
+      "eventId": "gs-donghae-ai-dc-groundbreaking-20261128",
+      "category": "電力相關",
+      "title": "南韓GS東海AI資料中心動土",
+      "points": [
+        "GS於二十八日舉行東海園區動土典禮。",
+        "首座機房受電100MW，園區長期規劃2.4GW。"
+      ],
+      "eventDate": "2026-11-28",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6674545",
+          "publishedAt": "2026-11-28T11:00:20.000Z",
+          "retrievedAt": "2026-11-28T21:06:49.449477+08:00",
+          "verificationNote": "已讀全文並核對GS園區規劃及動土報導；2.4GW非已建容量。"
+        }
+      ],
+      "why": "大型機房建置帶動供電與冷卻設備需求。"
+    },
+    {
+      "eventId": "kinsus-abf-expansion-approval-20261127",
+      "category": "半導體科技",
+      "title": "景碩601.7億元ABF擴產案獲准",
+      "points": [
+        "投資台灣事務所通過景碩601.7億元投資案。",
+        "景碩規劃擴建北部廠區，增聘1074人。"
+      ],
+      "eventDate": "2026-11-27",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6674470",
+          "publishedAt": "2026-11-28T06:30:07.000Z",
+          "retrievedAt": "2026-11-28T21:07:15.951435+08:00",
+          "verificationNote": "21時重新閱讀完整原文；18時重新核對完整原文；已讀全文並核對經濟部投資台灣新聞稿；不採未獨立查證的輝達交易敘述。"
+        }
+      ],
+      "why": "高階ABF載板擴產可增加伺服器供應。"
+    },
+    {
+      "eventId": "kinwong-zhuhai-msap-expansion-20261127",
+      "category": "其他科技",
+      "title": "景旺電子規劃26.8億元人民幣擴產光模組板",
+      "points": [
+        "景旺電子董事會核准26.8億元人民幣擴產。",
+        "珠海斗門mSAP產線鎖定800G至3.2T光模組。"
+      ],
+      "eventDate": "2026-11-27",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6674469",
+          "publishedAt": "2026-11-28T06:30:07.000Z",
+          "retrievedAt": "2026-11-28T21:07:17.551142+08:00",
+          "verificationNote": "21時重新閱讀完整原文；18時重新核對完整原文；已讀全文並交叉核對公司公告報導；建設期24個月，尚無首批出貨時刻。"
+        }
+      ],
+      "why": "新增細線路板產能可支援高速光模組需求。"
+    },
+    {
+      "eventId": "umc-singapore-p4-facility-orders-20261127",
+      "category": "半導體科技",
+      "title": "聯電新加坡P4廠向亞翔集團採購廠務",
+      "points": [
+        "聯電公告新加坡P4廠三筆廠務交易。",
+        "廠房工程及設備合計約367.6億元。"
+      ],
+      "eventDate": "2026-11-27",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6674466",
+          "publishedAt": "2026-11-28T06:30:06.000Z",
+          "retrievedAt": "2026-11-28T21:07:20.489907+08:00",
+          "verificationNote": "21時重新閱讀完整原文；18時重新核對完整原文；已讀全文並對照聯電公告其他報導；金額不同來源差0.02億，僅採約數。"
+        }
+      ],
+      "why": "廠務採購推進聯電矽光子產線建置。"
+    }
+  ],
+  "taiwanStockNews": [
+    {
+      "eventId": "sp-france-sovereign-outlook-negative-20261127",
+      "category": "全球總經",
+      "title": "標普將法國主權評等展望調為負向",
+      "points": [
+        "標普將法國展望由穩定調為負向。",
+        "長期評等維持A+，指向財政整頓風險。"
+      ],
+      "eventDate": "2026-11-27",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6674547",
+          "publishedAt": "2026-11-28T11:00:20.000Z",
+          "retrievedAt": "2026-11-28T21:06:42.489073+08:00",
+          "verificationNote": "已讀鉅亨完整轉載文並核對標普11月27日評等公告；評等本身未下調。"
+        }
+      ],
+      "why": "法國財政風險變化影響歐洲債市評價。"
+    },
+    {
+      "eventId": "japan-taiwan-bpa-anti-dumping-duties-20261127",
+      "category": "臺灣經濟",
+      "title": "日本將對臺灣產雙酚A課反傾銷稅",
+      "points": [
+        "日本財務省稱十二月三日起課稅五年。",
+        "臺灣供應商稅率分為8.7%與2.4%。"
+      ],
+      "eventDate": "2026-11-27",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6674471",
+          "publishedAt": "2026-11-28T06:30:08.000Z",
+          "retrievedAt": "2026-11-28T21:07:15.128061+08:00",
+          "verificationNote": "21時重新閱讀完整原文；18時重新核對完整原文；已讀全文並核對日本財務省11月27日決定。"
+        }
+      ],
+      "why": "課稅提高臺灣雙酚A出口日本成本。"
+    },
+    {
+      "eventId": "germany-2027-federal-budget-20261127",
+      "category": "全球總經",
+      "title": "德國議會通過2027年聯邦預算",
+      "points": [
+        "德國核心預算支出5559.4億歐元。",
+        "淨舉債1229.7億歐元，較原案增42.4億。"
+      ],
+      "eventDate": "2026-11-27",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6674467",
+          "publishedAt": "2026-11-28T06:30:07.000Z",
+          "retrievedAt": "2026-11-28T21:07:18.501708+08:00",
+          "verificationNote": "21時重新閱讀完整原文；18時重新核對完整原文；已讀全文並核對德國聯邦議院預算資料。"
+        }
+      ],
+      "why": "公共投資與新增舉債影響歐洲景氣預期。"
+    },
+    {
+      "eventId": "us-goods-trade-deficit-october-20261127",
+      "category": "全球總經",
+      "title": "美國十月商品貿易逆差擴大",
+      "points": [
+        "美國人口普查局初估十月逆差1495億美元。",
+        "進口月增6.1%，出口月增3.2%。"
+      ],
+      "eventDate": "2026-11-27",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6674151",
+          "publishedAt": "2026-11-27T14:33:13.000Z",
+          "retrievedAt": "2026-11-28T18:01:25.153914+08:00",
+          "verificationNote": "18時重新核對完整原文；已讀全文並核對美國人口普查局初值；1495億美元為四捨五入。"
+        }
+      ],
+      "why": "無直接產業影響"
+    },
+    {
+      "eventId": "citi-usd-hedge-adjustment-20261124",
+      "category": "市場展望",
+      "title": "花旗觀察美股波動後美元避險調整",
+      "points": [
+        "花旗稱部分境外客戶二十、二十三日淨買美元。",
+        "二十四日轉為淨賣，可能與避險部位調整有關。"
+      ],
+      "eventDate": "2026-11-24",
+      "sources": [
+        {
+          "name": "鉅亨網",
+          "url": "https://news.cnyes.com/news/id/6674126",
+          "publishedAt": "2026-11-27T14:00:05.000Z",
+          "retrievedAt": "2026-11-28T18:01:26.131212+08:00",
+          "verificationNote": "18時重新核對完整原文；已讀全文；交易為花旗客戶觀察，避險動機屬花旗解讀。"
+        }
+      ],
+      "why": "美股波動可透過避險調整影響美元買盤。"
+    }
+  ],
+  "publishedAt": "2026-11-28T13:10:47.257050+00:00"
+}
